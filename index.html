@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luis Ángel Gelvez Delgado | Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1055/1055687.png">
+</head>
+<body>
+  <!-- 🌐 Navbar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Inicio</a></li>
+      <li><a href="#about">Sobre mí</a></li>
+      <li><a href="#skills">Stack</a></li>
+      <li><a href="#projects">Proyectos</a></li>
+      <li><a href="#github">GitHub</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- 🧠 Hero -->
+  <header id="home" class="hero">
+    <div class="container">
+      <h1 class="name">Luis Ángel Gelvez Delgado</h1>
+      <p class="title">💻 Programming Student | Web Developer</p>
+      <a href="mailto:luisangelgelvezdelgado1750@gmail.com" class="btn">Contact Me</a>
+    </div>
+  </header>
+
+  <!-- 💫 About -->
+  <section id="about" class="section">
+    <h2>💫 About Me</h2>
+    <p>I’m a programming student with a technical degree in Software Development.  
+      I’m interested in <strong>Artificial Intelligence</strong> and <strong>web development</strong>.  
+      Currently, I’m focusing on learning about <strong>databases</strong>.  
+      My main languages are <strong>HTML, CSS and MongoDB</strong>.  
+      I’m passionate about web application development and, in the future, game development too.  
+      I love soft music, jazz, trap, reggae, hip hop, and urban pop 🎵.
+    </p>
+  </section>
+
+  <!-- 💻 Tech Stack -->
+  <section id="skills" class="section">
+    <h2>💻 Tech Stack</h2>
+    <div class="stack">
+      <span>HTML5</span>
+      <span>CSS3</span>
+      <span>JavaScript</span>
+      <span>Python</span>
+      <span>Bootstrap</span>
+      <span>MongoDB</span>
+      <span>MySQL</span>
+      <span>Figma</span>
+      <span>GitHub</span>
+    </div>
+  </section>
+
+  <!-- 🚀 Projects -->
+  <section id="projects" class="section">
+    <h2>🚀 Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Campus Music 🎶</h3>
+        <p>MongoDB project for managing music courses and students.  
+        Backend + database logic with Python and MongoDB.</p>
+        <a href="https://github.com/luis-angel-gelvez-delgado" target="_blank">View on GitHub</a>
+      </div>
+      <div class="card">
+        <h3>Daily Expense Simulator 💰</h3>
+        <p>Python console app to register daily expenses and generate reports.</p>
+        <a href="https://github.com/luis-angel-gelvez-delgado" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 📊 GitHub -->
+  <section id="github" class="section">
+    <h2>📊 GitHub Stats</h2>
+    <div class="stats">
+      <img src="https://github-readme-stats.vercel.app/api?username=luis-angel-gelvez-delgado&theme=dark&hide_border=false&include_all_commits=false&count_private=false" alt="stats" />
+      <img src="https://nirzak-streak-stats.vercel.app/?user=luis-angel-gelvez-delgado&theme=dark&hide_border=false" alt="streak" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luis-angel-gelvez-delgado&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="languages" />
+    </div>
+  </section>
+
+  <!-- 📬 Contact -->
+  <section id="contact" class="section">
+    <h2>📬 Contact</h2>
+    <p>📧 <a href="mailto:luisangelgelvezdelgado1750@gmail.com">luisangelgelvezdelgado1750@gmail.com</a></p>
+    <p>🐙 <a href="https://github.com/luis-angel-gelvez-delgado" target="_blank">GitHub Profile</a></p>
+  </section>
+
+  <footer>
+    <p>Made with 💜 by Luis Ángel Gelvez Delgado — © 2025</p>
+  </footer>
+
+  <!-- Scroll suave -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+<link rel="stylesheet" href="style.css">
+</html>
