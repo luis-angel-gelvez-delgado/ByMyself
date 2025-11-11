@@ -23,8 +23,7 @@ Diseñado con un estilo moderno y oscuro, construido con **HTML y CSS puro**.
 ---
 
 ### 🧩 Vista previa  
-🔗 **[Ver portafolio en línea](https://luis-angel-gelvez-delgado.github.io/)**  
-*(Reemplaza este enlace con la URL real de tu portafolio si cambia)*  
+🔗 **[Ver portafolio en línea](https://luis-angel-gelvez-delgado.github.io/ByMyself/)**  
 
 ---
 
@@ -32,6 +31,6 @@ Diseñado con un estilo moderno y oscuro, construido con **HTML y CSS puro**.
 Si deseas ejecutar este proyecto en tu equipo local:  
 
 ```bash
-git clone https://github.com/luis-angel-gelvez-delgado/tu-repo.git
-cd tu-repo
+git clone https://github.com/luis-angel-gelvez-delgado/ByMyself.git
+cd ByMyself
 # Luego abre index.html en tu navegador
